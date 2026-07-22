@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# wasm-pack output (rebuilt from source, not checked in)
+/vibao-runtime/pkg/
+
+# Release packaging output (build-release.sh) — rebuilt on demand
+/release/
+
+# Local build output from testing `vibaoc build` manually
+/dist/
+dist_*/
+demo_dist/
+
+# Editor/OS junk
+.DS_Store
+*.log
